@@ -11,7 +11,7 @@ function App() {
         <>
             <Header />
             <div className="container">
-                <FeedbackList />
+                <FeedbackList feedback={feedback} />
             </div>
         </>
     )

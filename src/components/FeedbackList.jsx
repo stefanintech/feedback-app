@@ -1,8 +1,18 @@
-function FeedbackList() {
-  return (
-    <div className="card">
-      List
-    </div>
+import FeedbackItem from './FeedbackItem'
+
+function FeedbackList({feedback}) {
+    console.log(feedback)
+    if (!feedback || feedback.length === 0) {
+        return <p>No Feedback Available</p>
+    }
+
+    return (
+        <div className="feedback-list">
+            {feedback.map((item) => (
+                <FeedbackItem key={item.id}  item={item}/>
+
+            ))}
+        </div>
   )
 }
 
