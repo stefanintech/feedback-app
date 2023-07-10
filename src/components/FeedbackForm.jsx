@@ -28,7 +28,7 @@ function FeedbackForm() {
   return <Card>
     <form>
         <h2>Let your opinions flow and rate your experience!</h2>
-        <RatingSelect />
+        <RatingSelect select={setRating} selected={rating} />
         <div className="input-group">
           <input onChange={handleTextChange} type="text" placeholder=" Write a review" value={text} />
           <Button type="submit" isDisabled={btnDisabled}>Send</Button>
