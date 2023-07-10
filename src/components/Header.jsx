@@ -15,7 +15,7 @@ function Header({ text, bgColor, textColor }) {
 }
 
 Header.defaultProps = {
-    text: 'Schools Feedback UI',
+    text: 'Feedback Fountain',
     bgColor: 'rgba(0,0,0,0.4)',
     textColor: '#ff6a95'
 }
