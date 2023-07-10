@@ -1,3 +1,4 @@
+import { motion, AnimatePresence } from "framer-motion"
 import {v4 as uuidv4} from 'uuid'
 import { useState } from "react"
 import Header from "./components/Header"
@@ -10,8 +11,8 @@ function App() {
     const [feedback, setFeedback] = useState(FeedbackData)
 
     const addFeedback = (newFeedback) => {
-        newFeedback.id = uuidv4()
-        setFeedback([newFeedback, ...feedback])
+                newFeedback.id = uuidv4()
+                setFeedback([newFeedback, ...feedback])
     }
 
     const deleteFeedback = (id) => {
