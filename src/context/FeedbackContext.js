@@ -18,6 +18,7 @@ export const FeedbackProvider = ({children}) => {
 
     // fetch feedback
     const fetchFeedback = async () => {
+        
         const response = await fetch(`/feedback?_sort=id&_order=desc`)
         const data = await response.json()
 
@@ -27,6 +28,7 @@ export const FeedbackProvider = ({children}) => {
 
     // add feedback
     const addFeedback = async (newFeedback) => {
+
         const response = await fetch('/feedback', {
           method: 'POST',
           headers: {
@@ -45,12 +47,12 @@ export const FeedbackProvider = ({children}) => {
         if(window.confirm('Are you sure you want to delete?')) {
             await fetch(`/feedback/${id}`, {method: 'DELETE'})
             setFeedback(feedback.filter((item) => item.id !== id))
-
         }
     }
 
     // update feedback item
     const updateFeedback = async (id, updItem) => {
+
         const response = await fetch(`/feedback/${id}`, {
           method: 'PUT',
           headers: {
@@ -67,9 +69,9 @@ export const FeedbackProvider = ({children}) => {
           item: {},
           edit: false,
         })
-      }
-    
-    
+        
+    }
+
     // set item to be updated
     const editFeedback = (item) => {
         setFeedbackEdit({
