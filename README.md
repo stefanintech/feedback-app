@@ -1,5 +1,5 @@
 # <a target="_blank" href="https://feedbackfountain.netlify.app/">Feedback Fountain</a> 🚀
-<a href="https://feedbackfountain.netlify.app/" target="_blank"><img width="1440" alt="Screenshot 2023-07-13 at 10 31 41 PM" src="https://github.com/codewithfan/feedback-app/assets/85418632/b19625e6-1ff0-425d-b030-f4e3f833895c"></a>
+<a href="https://feedbackfountain.netlify.app/" target="_blank"><img width="1440" alt="Screenshot 2023-07-13 at 10 31 41 PM" src="https://github.com/stefanintech/feedback-app/assets/85418632/b19625e6-1ff0-425d-b030-f4e3f833895c"></a>
 
 The goal in creating Feedback Fountain is to cultivate an open channel of communication between businesses and their customers. By empowering customers to share their experiences in real-time, I aim to provide businesses with the immediate insights they need to continuously improve, enhancing customer satisfaction and fostering long-term loyalty.
 
@@ -19,8 +19,8 @@ Adding authentication so users are able to submit reviews tied to their accounts
 ## Examples ⤵️
 Take a look at the other projects that I have in my portfolio:
 
-**GitHub Discovery:** https://github.com/codewithfan/github-finder
+**GitHub Discovery:** https://github.com/stefanintech/github-finder
 
-**Guam Stargazer Society:** https://github.com/codewithfan/nasa-pod
+**Guam Stargazer Society:** https://github.com/stefanintech/nasa-pod
 
-**Tic Tac Toe:** https://github.com/codewithfan/tic-tac-toe
+**Tic Tac Toe:** https://github.com/stefanintech/tic-tac-toe
